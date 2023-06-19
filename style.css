@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dot-size: 75px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+}
+
+#mastermind {
+    background-color: black;
+    height: 600px;
+    width: 400px;
+}
+
+#toguest {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 3px solid gainsboro;
+}
+
+#toguest div {
+    width: var(--dot-size);
+    height: var(--dot-size);
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#board {
+    
+}
